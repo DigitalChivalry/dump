@@ -1,0 +1,45 @@
+:root {
+	--block-elements-color: hsl(265, 77%, 40%);
+}
+body {
+	font-size: 62.5%;
+}
+
+.calculus {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: repeat(4, 1fr);
+	grid-column-gap: 0px;
+	grid-row-gap: 0px;
+	border: 3px black solid;
+}
+.calculus__element{
+	font-size: 2rem;
+	text-align: center;
+	vertical-align: middle;
+	border: 1px solid black;
+}
+
+.coloredWrong {
+	background-color: red;
+}
+.coloredRight {
+	background-color: green;
+}
+.bold {
+ font-weight: bold;
+}
+.crossOut {
+	text-decoration: line-through;
+}
+.border {
+	border: 1px solid red;
+}
+
+.ferhat {
+	display: inline;
+	font-size: 1rem;
+	margin-bottom: 50px;
+	color: white;
+	background-color: blue;
+}
