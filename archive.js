@@ -394,3 +394,9 @@ input.addEventListener('input', function() {
     p.classList.add('coloredWrong')
   }
 })
+
+input.addEventListener('input', (e) => {
+  input.value = e.data;
+})
+
+
