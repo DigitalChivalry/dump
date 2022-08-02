@@ -399,4 +399,5 @@ input.addEventListener('input', (e) => {
   input.value = e.data;
 })
 
+console.log(navigator.userAgent)
 
